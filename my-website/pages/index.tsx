@@ -3,6 +3,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+const Test = () => {
+  return (
+    <div>
+      <a href="/home">Home</a>
+    </div>
+  )
+}
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -13,8 +21,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <Test></Test>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!!!</a>
         </h1>
 
         <p className={styles.description}>
